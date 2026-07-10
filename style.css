@@ -11,6 +11,8 @@ header{
 
     color: #fff;
     padding: 120px 20px;
+     font-size: 40px;   /* Change to 48px, 56px, 72px as needed */
+    font-weight: 700;
     text-align: center;
     min-height: 100vh;
 
@@ -19,7 +21,7 @@ header{
     align-items: center;
 }
 h1{
-     font-size: 50px;   /* Change to 48px, 56px, 72px as needed */
+     font-size: 60px;   /* Change to 48px, 56px, 72px as needed */
     font-weight: 700;
 }
 .container{max-width:1100px;margin:auto;padding:20px}
