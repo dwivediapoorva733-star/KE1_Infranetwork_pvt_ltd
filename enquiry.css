@@ -1,0 +1,20 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Poppins,sans-serif}
+body{background:#081c3b;padding:40px}
+.wrapper{max-width:1300px;margin:auto}
+.card{display:grid;grid-template-columns:40% 60%;background:#0b2349;border-radius:24px;overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,.35)}
+.left{padding:50px;color:#fff;background:linear-gradient(180deg,#0b2349,#102f61)}
+.left h5{color:#35b8ff;letter-spacing:2px}
+.left h1{font-size:58px;line-height:1.1;margin:15px 0}
+.left h1 span{color:#38bdf8}
+.left p{color:#d8e5f8;line-height:1.8;margin-bottom:25px}
+.feature{display:flex;gap:18px;align-items:flex-start;margin:22px 0}
+.feature i{width:52px;height:52px;border:2px solid #2aa8ff;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#2aa8ff}
+.right{background:#fff;padding:45px}
+.right h2{color:#0b2349;margin-bottom:25px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+input,select,textarea{width:100%;padding:16px;border:1px solid #d7dfeb;border-radius:12px;margin-bottom:18px;font-size:15px}
+button{width:100%;padding:18px;border:none;border-radius:12px;background:#0d6efd;color:#fff;font-size:18px;font-weight:600;cursor:pointer}
+button:hover{background:#0b5ed7}
+.footerbar{display:grid;grid-template-columns:repeat(3,1fr);background:#fff;border-radius:20px;margin-top:25px;padding:25px;text-align:center;gap:20px}
+.footerbar i{font-size:30px;color:#0d6efd;margin-bottom:10px}
+@media(max-width:900px){.card{grid-template-columns:1fr}.row,.footerbar{grid-template-columns:1fr}.left h1{font-size:42px}}
