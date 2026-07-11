@@ -1,0 +1,1 @@
+Place your image at images/about.jpg
