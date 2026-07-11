@@ -1,5 +1,5 @@
 *{
-    margin:auto;
+    margin:0;
     padding:0;
     box-sizing:border-box;
     font-family:'Poppins',sans-serif;
@@ -58,7 +58,7 @@ nav ul{
 
 nav ul li{
 
-    margin-left:auto;
+    margin-left:40px;
 
 }
 
@@ -83,7 +83,7 @@ nav ul li a:hover{
 
     width:50%;
 
-    margin-left:auto;
+    margin-left:40px;
     margin-top:150px;
 
     color:white;
