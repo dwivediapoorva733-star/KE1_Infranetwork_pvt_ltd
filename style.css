@@ -49,6 +49,56 @@ nav{
 
 }
 
+/* ===========================
+   Section Spacing & Divider
+=========================== */
+
+section{
+
+    position:relative;
+
+    padding:100px 0;
+
+}
+
+/* Divider Line */
+
+section::after{
+
+    content:"";
+
+    position:absolute;
+
+    bottom:0;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    width:90%;
+
+    height:1px;
+
+    background:linear-gradient(
+        to right,
+        transparent,
+        #4DA6FF,
+        #FFFFFF,
+        #4DA6FF,
+        transparent
+    );
+
+    opacity:0.35;
+
+}
+
+/* Remove line after last section */
+
+section:last-of-type::after{
+
+    display:none;
+
+}
 nav ul{
 
     display:flex;
@@ -115,6 +165,7 @@ nav ul li a:hover{
     margin-bottom:40px;
 
 }
+
 
 .buttons{
 
