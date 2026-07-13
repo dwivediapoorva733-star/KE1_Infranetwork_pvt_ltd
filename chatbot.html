@@ -1,26 +1,11 @@
-<!-- Floating Chat -->
-<div id="chat-toggle" class="chat-toggle">💬</div>
+<div class="quick-actions">
 
-<div id="chatbot" class="chatbot">
-  <div class="chat-header">
-    <div>
-      <strong>KE1 Assistant</strong><br>
-      <small>Online • Usually replies instantly</small>
-    </div>
-    <button id="close-chat">&times;</button>
-  </div>
+    <button class="quote-btn" onclick="openEnquiry()">
+        📄 Get a Free Quote
+    </button>
 
-  <div class="chat-body">
-    <div class="message bot" id="bot-message">
-      👋 Welcome to KE1 Infranetwork Pvt. Ltd.<br><br>
-      How can we help you today?
-    </div>
+    <button class="whatsapp-btn" onclick="openWhatsApp()">
+        💬 WhatsApp Us
+    </button>
 
-    <div class="quick-actions">
-      <button onclick="openEnquiry()">📄 Get a Free Quote</button>
-      <button onclick="openWhatsApp()">💬 WhatsApp Us</button>
-    </div>
-  </div>
 </div>
-
-<script src="chatbot.js"></script>
