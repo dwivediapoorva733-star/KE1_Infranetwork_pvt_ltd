@@ -57,17 +57,29 @@ header{ background:
 
     list-style:none;
 
-    gap:35px;
+    gap:40px;
+
+    margin-left:auto;   /* Pushes the menu to the right */
+
+    align-items:center;
+
+}
+
+.nav-links li{
+
+    display:inline-block;
 
 }
 
 .nav-links a{
 
-    color:white;
-
     text-decoration:none;
 
+    color:#fff;
+
     font-size:17px;
+
+    font-weight:500;
 
     transition:.3s;
 
