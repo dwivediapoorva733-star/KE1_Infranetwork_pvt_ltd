@@ -29,29 +29,58 @@ header{
 nav{
 
     display:flex;
+
     justify-content:space-between;
+
     align-items:center;
 
-    padding:25px 80px;
+    padding:15px 40px;
+
+    width:100%;
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    z-index:1000;
+
+    background:rgba(8,28,59,.85);
+
+    backdrop-filter:blur(10px);
+
 }
 
 .logo{
 
     display:flex;
+
     align-items:center;
-    color:white;
-    font-size:28px;
-    font-weight:700;
+
+    margin-right:auto;
 
 }
 
 .logo img{
-    height:150px;
-    width:150px;
-    margin-right:25px;
+
+    width:70px;
+
+    height:auto;
+
+    margin-right:12px;
 
 }
 
+.logo span{
+
+    color:#fff;
+
+    font-size:24px;
+
+    font-weight:700;
+
+}
 /* ===========================
    Section Spacing & Divider
 =========================== */
