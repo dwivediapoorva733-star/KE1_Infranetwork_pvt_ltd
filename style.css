@@ -6,21 +6,24 @@
 }
 
 header{
-
-    width:100%;
-    height:100vh;
-
     background:
-    linear-gradient(rgba(4,15,35,.75),
-    rgba(4,15,35,.80)),
-    url("ChatGPT Image Jul 11, 2026, 02_44_16 AM.png");
+        linear-gradient(rgba(5,15,35,0.75), rgba(5,15,35,0.85)),
+        url("ChatGPT Image Jul 11, 2026, 02_44_16 AM.png");
 
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
+    color: #fff;
+    padding: 120px 20px;
+    text-align: center;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 /* Navigation */
 
 nav{
