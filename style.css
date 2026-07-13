@@ -60,6 +60,23 @@ section{
     padding:100px 0;
 
 }
+@media(max-width:768px){
+
+.review-card{
+
+width:280px;
+
+padding:22px;
+
+}
+
+.reviews-section h2{
+
+font-size:32px;
+
+}
+
+}
 
 /* Divider Line */
 
