@@ -9,7 +9,7 @@
     height:100vh;
 
     background:
-    linear-gradient(rgba(0,15,40,.75),rgba(0,15,40,.75)),
+   
     url("images/ChatGPT Image Jul 11, 2026, 02_44_16 AM.png");
 
     background-size:cover;
@@ -42,25 +42,8 @@
 
 }
 
-/* LOGO */
 
-.logo{
-    display:flex;
-    align-items:center;
-}
 
-.logo img{
-    width:80px;      /* Increase or decrease as needed */
-    height:auto;
-    object-fit:contain;
-}
-
-.logo span{
-    margin-left:12px;
-    color:#fff;
-    font-size:22px;
-    font-weight:700;
-}
 
 /* MENU */
 
