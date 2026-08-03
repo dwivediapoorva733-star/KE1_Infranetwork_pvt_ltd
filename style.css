@@ -9,127 +9,77 @@ header{ background:
         url("ChatGPT Image Jul 11, 2026, 02_44_16 AM.png");;padding:80px 20px;text-align:center}
 @media (max-width:768px){
 
+
+/* ===========================
+   NAVIGATION
+=========================== */
+
 .navbar{
 
-flex-direction:column;
+    position:absolute;
+    top:0;
+    left:0;
 
-padding:20px;
+    width:100%;
 
-}
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 
-.nav-links{
+    padding:20px 60px;
 
-margin-top:20px;
-
-margin-left:0;
-
-flex-wrap:wrap;
-
-justify-content:center;
-
-gap:20px;
+    z-index:1000;
 
 }
 
-.logo{
-
-margin-bottom:10px;
-
-}
-
-}
+/* Logo */
 
 .logo img{
 
-    width:70px;
-
-    margin-right:15px;
-
-}
-
-.logo span{
-
-    color:white;
-
-    font-size:24px;
-
-    font-weight:700;
+    width:75px;
+    height:auto;
 
 }
-.nav-links{
+
+/* Menu */
+
+.nav-menu{
 
     display:flex;
+    flex-direction:row;      /* IMPORTANT */
+    justify-content:flex-end;
+    align-items:center;
 
     list-style:none;
 
     gap:40px;
 
-    margin-left:auto;   /* Pushes the menu to the right */
-
-    align-items:center;
-
-}
-
-.nav-links li{
-
-    display:inline-block;
+    margin:0;
+    padding:0;
 
 }
 
-.nav-links a{
+.nav-menu li{
 
-    text-decoration:none;
+    margin:0;
+
+}
+
+.nav-menu li a{
 
     color:#fff;
-
-    font-size:17px;
-
+    text-decoration:none;
+    font-size:18px;
     font-weight:500;
-
     transition:.3s;
 
 }
 
-.nav-links a:hover{
+.nav-menu li a:hover{
 
     color:#00BFFF;
 
-}.hero-content{
-
-    position:absolute;
-
-    top:55%;
-
-    left:60px;
-
-    transform:translateY(-50%);
-
-    max-width:650px;
-
-    color:white;
-
-    text-align:left;
-
 }
-
-.hero-content h1{
-
-    font-size:64px;
-
-    margin:20px 0;
-
-}
-
-.hero-content p{
-
-    font-size:20px;
-
-    line-height:1.8;
-
-    margin-bottom:35px;
-
-}
-
 
 
 /* ===========================
