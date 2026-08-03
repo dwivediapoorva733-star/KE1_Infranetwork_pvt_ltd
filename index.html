@@ -282,34 +282,71 @@ AMC, troubleshooting and preventive maintenance services.
 
             <h2>Request a Free Quote</h2>
 
-            <form action="https://formsubmit.co/YOUR_EMAIL@gmail.com" method="POST">
+           <form action="https://api.web3forms.com/submit" method="POST">
 
-    <input type="text" name="name" placeholder="Full Name" required>
+    <!-- Web3Forms Access Key -->
+    <input type="hidden" name="access_key" value="f09afb92-8927-496d-8e3f-25ada0b2efb5">
 
-    <input type="email" name="email" placeholder="Email Address" required>
+    <!-- Email Subject -->
+    <input type="hidden" name="subject" value="New Enquiry - KE1 Infranetwork Pvt. Ltd.">
 
-    <input type="tel" name="phone" placeholder="Mobile Number" required>
+    <!-- Redirect after submit -->
+    <input type="hidden" name="redirect" value="https://ke1infranetwork.com/thankyou.html">
 
-    <input type="text" name="city" placeholder="City">
+    <input
+        type="text"
+        name="name"
+        placeholder="Full Name"
+        required>
+
+    <input
+        type="email"
+        name="email"
+        placeholder="Email Address"
+        required>
+
+    <input
+        type="tel"
+        name="phone"
+        placeholder="Mobile Number"
+        required>
+
+    <input
+        type="text"
+        name="city"
+        placeholder="City">
 
     <select name="service" required>
+
         <option value="">Select Service</option>
+
         <option>Wi-Fi Installation</option>
-        <option>Fiber Optic</option>
+
+        <option>Optical Fiber (OFC)</option>
+
         <option>Networking</option>
+
         <option>Lease Line</option>
+
         <option>Telecom Infrastructure</option>
+
+        <option>CCTV Installation</option>
+
     </select>
 
-    <textarea name="requirement" placeholder="Your Requirement"></textarea>
+    <textarea
+        name="message"
+        rows="6"
+        placeholder="Tell us about your requirement..."
+        required></textarea>
 
-    <input type="hidden" name="_subject" value="New Enquiry - KE1 Infranetwork">
-    <input type="hidden" name="_captcha" value="false">
+    <button type="submit">
 
-    <button type="submit">Submit Enquiry</button>
+        Submit Enquiry
+
+    </button>
 
 </form>
-
         </div>
 
     </div>
