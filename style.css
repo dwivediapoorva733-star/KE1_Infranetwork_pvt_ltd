@@ -1,20 +1,21 @@
 header{
-    position: relative;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #fff;
-    overflow: hidden;
-
     background:
-        linear-gradient(rgba(6,12,22,0.82), rgba(6,12,22,0.90)),
+        linear-gradient(rgba(5,15,35,0.75), rgba(5,15,35,0.85)),
         url("images/network-bg.jpg");
 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    color: #fff;
+    padding: 120px 20px;
+    text-align: center;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header .container{
