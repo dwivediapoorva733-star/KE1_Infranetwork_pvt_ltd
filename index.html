@@ -282,41 +282,33 @@ AMC, troubleshooting and preventive maintenance services.
 
             <h2>Request a Free Quote</h2>
 
-            <form action="https://formsubmit.co/dwivediapoorva733@gmail.com" method="POST">
+            <form action="https://formsubmit.co/YOUR_EMAIL@gmail.com" method="POST">
 
-                <input type="text" placeholder="Full Name">
+    <input type="text" name="name" placeholder="Full Name" required>
 
-                <input type="email" placeholder="Email Address">
+    <input type="email" name="email" placeholder="Email Address" required>
 
-                <input type="tel" placeholder="Mobile Number">
+    <input type="tel" name="phone" placeholder="Mobile Number" required>
 
-                <input type="text" placeholder="City">
+    <input type="text" name="city" placeholder="City">
 
-                <select>
+    <select name="service" required>
+        <option value="">Select Service</option>
+        <option>Wi-Fi Installation</option>
+        <option>Fiber Optic</option>
+        <option>Networking</option>
+        <option>Lease Line</option>
+        <option>Telecom Infrastructure</option>
+    </select>
 
-                    <option>Select Service</option>
+    <textarea name="requirement" placeholder="Your Requirement"></textarea>
 
-                    <option>Wi-Fi Installation</option>
+    <input type="hidden" name="_subject" value="New Enquiry - KE1 Infranetwork">
+    <input type="hidden" name="_captcha" value="false">
 
-                    <option>Fiber Optic</option>
+    <button type="submit">Submit Enquiry</button>
 
-                    <option>Networking</option>
-
-                    <option>Lease Line</option>
-
-                    <option>Telecom Infrastructure</option>
-
-                </select>
-
-                <textarea rows="5" placeholder="Your Requirement"></textarea>
-
-                <button>
-
-                    Submit Enquiry
-
-                </button>
-
-            </form>
+</form>
 
         </div>
 
