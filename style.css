@@ -7,30 +7,35 @@
 header{ background:
         linear-gradient(rgba(5,15,35,0.75), rgba(5,15,35,0.85)),
         url("ChatGPT Image Jul 11, 2026, 02_44_16 AM.png");;padding:80px 20px;text-align:center}
+@media (max-width:768px){
+
 .navbar{
 
-    width:100%;
+flex-direction:column;
 
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
-
-    padding:25px 60px;
-
-    position:absolute;
-
-    top:0;
-
-    left:0;
+padding:20px;
 
 }
+
+.nav-links{
+
+margin-top:20px;
+
+margin-left:0;
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+gap:20px;
+
+}
+
 .logo{
 
-    display:flex;
+margin-bottom:10px;
 
-    align-items:center;
+}
 
 }
 
