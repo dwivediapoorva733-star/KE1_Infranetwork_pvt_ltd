@@ -45,34 +45,22 @@
 /* LOGO */
 
 .logo{
-
     display:flex;
-
     align-items:center;
-
 }
 
 .logo img{
-
-    width:70px;
-
-    height:70px;
-
+    width:80px;      /* Increase or decrease as needed */
+    height:auto;
     object-fit:contain;
-
 }
 
-/*.logo h2{
-
-    color:#fff;
-
+.logo span{
     margin-left:12px;
-
-    font-size:24px;
-
+    color:#fff;
+    font-size:22px;
     font-weight:700;
-
-}*/
+}
 
 /* MENU */
 
